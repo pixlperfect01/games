@@ -12,6 +12,10 @@ function player(){
     ctx.arc(this.dx,this.dy,10,0,2*Math.PI);
     ctx.fill();
   }
+  this.fall=function(){
+    this.y+=this.vel;
+    this.vel-=.2;
+  }
   this.flap=function(){
     this.vel=-3;
   }
