@@ -15,4 +15,8 @@ function player(){
   this.flap=function(){
     this.vel=-3;
   }
+  this.deathTest=function(){
+    if(this.x>=pipe.x&&this.x<=pipe.x+20&&((this.y>=pipe.h-pipeSpace)||(this.y>=pipe.h)))
+      this.dead=true;
+  }
 }
