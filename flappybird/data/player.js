@@ -1,5 +1,5 @@
 function player(){
-  this.x=20;
+  this.x=50;
   this.y=75;
   this.dx=this.x+10;
   this.dy=this.y+10;
