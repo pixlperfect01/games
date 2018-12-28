@@ -15,3 +15,4 @@ function player(){
   this.flap=function(){
     this.vel=-3;
   }
+}
