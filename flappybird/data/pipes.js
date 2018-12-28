@@ -1,4 +1,3 @@
-range=
 function pipes(){
   this.x=c.width;
   this.h=0;
